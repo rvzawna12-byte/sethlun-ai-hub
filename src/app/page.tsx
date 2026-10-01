@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function Home() {
   const tools = [
     { name: 'Image AI', icon: '🖼️', desc: 'Thlalak siamna', href: '/image', color: 'from-purple-500 to-pink-500' },
-    { name: 'Chat AI', icon: '💬', desc: 'Zawhna zawtna', href: '/chat', color: 'from-blue-500 to-cyan-500' },
+    { name: 'Chat AI', icon: '💬', desc: 'Zawhna zawhna', href: '/chat', color: 'from-blue-500 to-cyan-500' },
     { name: 'Code AI', icon: '💻', desc: 'Code siamna', href: '/code', color: 'from-green-500 to-emerald-500' },
     { name: 'Video AI', icon: '🎬', desc: 'Video frame siamna', href: '/video', color: 'from-orange-500 to-red-500' },
     { name: 'Music AI', icon: '🎵', desc: 'Hla lyrics siamna', href: '/music', color: 'from-pink-500 to-rose-500' },
