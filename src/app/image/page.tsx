@@ -11,7 +11,7 @@ export default function ImagePage() {
     if (!prompt) return
     setLoading(true)
     setImg('')
-    const url = `https://image.pollinations.ai/prompt/${encodeURIComponent(prompt)}?width=1024&height=1024&seed=${Math.random()}&nologo=true`
+    const url = `https://image.pollinations.ai/prompt/${encodeURIComponent(prompt + ", 8k, ultra detailed, photorealistic")}?width=1024&height=1024&seed=${Math.random()}&model=flux&nologo=true`
     setImg(url)
   }
 
