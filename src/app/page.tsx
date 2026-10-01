@@ -19,13 +19,13 @@ export default function Home() {
             Mizoram AI Hub - Live
           </div>
           <h1 className="text-6xl font-black mb-4 tracking-tight">
-            SETHLUN <span className="bg-gradient-to-r from-white to-zinc-500 bg-clip-text text-transparent">AI HUB</span>
+            Rv ZAWNA <span className="bg-gradient-to-r from-white to-zinc-500 bg-clip-text text-transparent">AI HUB</span>
           </h1>
           <p className="text-xl text-zinc-400 max-w-2xl mx-auto">
             A free a AI tools - Image, Chat, Code, Video, Music siam theihna.
           </p>
           <div className="mt-8 flex gap-3 justify-center">
-            <div className="text-sm text-zinc-500">Siamtu: <span className="text-white font-bold">Sethlun</span> • Serkawn</div>
+            <div className="text-sm text-zinc-500">Siamtu: <span className="text-white font-bold">Rv Zawna</span> • Sethlun</div>
           </div>
         </div>
 
@@ -55,7 +55,7 @@ export default function Home() {
 
         {/* Footer */}
         <div className="mt-20 text-center border-t border-zinc-900 pt-8">
-          <p className="text-zinc-600 text-sm">© 2026 Sethlun AI Hub • Made in Mizoram with ❤️ • Free for all Mizo</p>
+          <p className="text-zinc-600 text-sm">© 2026 Rv Zawna AI Hub • Made in Mizoram with ❤️ • Free for all Mizo</p>
         </div>
       </div>
     </div>
