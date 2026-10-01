@@ -4,7 +4,7 @@ export async function POST(req: Request){
     const {messages} = await req.json();
     const q = messages?.at(-1)?.content || "hello";
     const k = process.env.GOOGLE_GENERATIVE_AI_API_KEY;
-    const url = `https://generativelanguage.googleapis.com/v1/models/gemini-2.0-flash:generateContent?key=${k}`;
+    const url = `https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent?key=${k}`;
     const r = await fetch(url,{
       method:"POST",
       headers:{"Content-Type":"application/json"},
